@@ -1,23 +1,26 @@
+int boton 2;
+int led = 3;
+
 void setup() {
-  pinMode(2, INPUT_PULLUP);// pin 2 se conecta a gnd
-  pinMode(3, OUTPUT); // este pin se conecta al buzzer o el led
+  pinMode(boton, INPUT_PULLUP);
+  pinMode(led, OUTPUT);
   Serial.begin(9600);
 }
 
 void loop() {
 
-  int estado = digitalRead(2);
+  int estado = digitalRead(boton);
 
-  if (estado == LOW) //HIGH
+  if (estado == 0) //HIGH
   {
     Serial.println("HIGH");
-    digitalWrite(3, LOW);
+    digitalWrite(led, HIGH);
   }
 
-  if (estado == HIGH) //LOW
+  if (estado == 1) //LOW
   {
     Serial.println("LOW");
-    digitalWrite(3, HIGH);
+    digitalWrite(led, LOW);
   }
 
 }
