@@ -35,7 +35,7 @@ Agregando un tiempo de retarto despues de realizar la lectura ``` read(); ``` de
 
 * **Totalmente Recomendado**
 
-## Solucion utilizando la resistencia interna del arduino que tiene incorporada
+## Solucion utilizando resistencia que tiene incorporada el arduino (version solo boton) 
 
 
 ```C++
