@@ -59,6 +59,6 @@ pinMode(boton, INPUT_PULLUP);
 
 ## Conexion para utilizar la resistencia interna
 
-<img src="https://github.com/IDiegoUlises/Boton-Con-Resistencia-PULLUP/blob/master/images/version-solo-boton-recortada.png" width="400" height="600" />
+<img src="https://github.com/IDiegoUlises/Boton-Con-Resistencia-PULLUP/blob/master/images/version-solo-boton-final.png" width="400" height="600" />
 
 
