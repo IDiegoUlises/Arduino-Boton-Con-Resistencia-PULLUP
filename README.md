@@ -1,4 +1,4 @@
-# Arduino Utilizando Resistencia PullUP interna
+# Arduino Utilizando Resistencia PullUP
 
 
 ### Esto es un Pulsador Mecanico
@@ -17,7 +17,7 @@ Imagina un capicitador que lo que hace es retener una corriente esta resistencia
 **¿Porque existe este problema?** Simplemente porque somos seres humanos y tenemos que presionar el boton con nuestra mano y al hacerlo nos demoramos **microsegundos** es como si presionaramos el boton mas de 10 veces seguidas.
 
 
-## Solucion Con Codigo
+## Solucion Con un tiempo de retardo
 
 ```C++
 delay(150); 
@@ -30,4 +30,18 @@ Agregando un tiempo de retarto despues de realizar la lectura ``` read(); ``` de
 * **No se pueden utilizar en interupciones** 
 
 ## Solucion Utilizando una resistencia externa
+
+<img src="https://github.com/IDiegoUlises/Boton-Con-Resistencia-PULLUP-Interna/blob/master/images/Boton-con-resistencia-externa.png" width="400" height="600" />
+
+* **Totalmente Recomendado**
+
+## Solucion utilizando la resistencia interna del arduino que tiene incorporada
+
+
+```C++
+pinMode(boton, INPUT_PULLUP);
+```
+* **Recomendado solo para pruebas**
+* **En caso que se queme no podras remplazarla**
+* **Evitas utilizar una resistencia externa** 
 
