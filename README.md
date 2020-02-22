@@ -1,2 +1,4 @@
-# Arduino Utilizando su Resistencia interna PullUP
+# Arduino Utilizando Resistencia PullUP interna
 
+
+### Pulsador Mecanico
