@@ -1,1 +1,2 @@
-# Boton-Con-Resistencia-PULLUP-Interna
+# Arduino Utilizando su Resistencia interna PullUP
+
