@@ -57,7 +57,7 @@ pinMode(boton, INPUT_PULLUP);
 
 **Advertencia 3:** Nunca intentes utilizar esta resistencia para limitar la corriente de un motor o de un led no estan diseñadas para eso en el caso que se haga **puedes quemar todo el arduino**
 
-## Conexion para utilizar la resistencia interna
+## Conexion
 
 <img src="https://github.com/IDiegoUlises/Boton-Con-Resistencia-PULLUP/blob/master/images/version-solo-boton-final.png" width="400" height="600" />
 
