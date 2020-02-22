@@ -35,8 +35,14 @@ Agregando un tiempo de retarto despues de realizar la lectura ``` read(); ``` de
 
 * **Totalmente Recomendado**
 
-## Solucion utilizando resistencia que tiene incorporada el arduino (version solo boton) 
+## Solucion utilizando resistencia interna que tiene incorporada el arduino (version solo boton) 
 
+<img src="https://github.com/IDiegoUlises/Boton-Con-Resistencia-PULLUP-Interna/blob/master/images/Version-Solo-Boton-foto-real.jpg" width="900" height="600" />
+
+Lo que sucede es que se esta utilizando la resistencia interna que tiene incorporada adentro del arduino con esto no necesitaras agregar una resistencia y es genial para hacer pruebas rapidas.
+
+
+* **Para utilizarlo la resistencia interna solo necesitaras utilizar una linea de codigo**
 
 ```C++
 pinMode(boton, INPUT_PULLUP);
@@ -45,3 +51,8 @@ pinMode(boton, INPUT_PULLUP);
 * **En caso que se queme no podras remplazarla**
 * **Evitas utilizar una resistencia externa** 
 
+**Advertencia:** La resistencia que tiene incorporada el arduino es una resistencia **smd** es decir que tiene dificultades en disipar el calor y es mas propensa a quemarse en el caso que se utilize en largos periodos de tiempo.
+
+**Advertencia 2:** Esta resistencia solo debe ser utilizarse en las comunicaciones por ejemplo una comunicacion serial o para un boton porque son especializadas para eso en el caso que se utilize para otra cosa **es muy posible quemar todo el arduino**
+
+**Advertencia 3:** Nunca intentes utilizar esta resistencia para limitar la corriente de un motor o de un led no estan diseñadas para eso en el caso que se haga **puedes quemar todo el arduino**
