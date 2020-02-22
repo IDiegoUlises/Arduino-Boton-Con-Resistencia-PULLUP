@@ -29,5 +29,5 @@ Agregando un tiempo de retarto despues de realizar la lectura ``` read(); ``` de
 * **Nuestro arduino se volvera lento**
 * **No se pueden utilizar en interupciones** 
 
-
+## Solucion Utilizando una resistencia externa
 
