@@ -23,8 +23,11 @@ Imagina un capicitador que lo que hace es retener una corriente esta resistencia
 delay(150); 
 ```
 
-Agregando un tiempo de retarto despues de realizar la lectura del boton ``` read(); ```
+Agregando un tiempo de retarto despues de realizar la lectura ``` read(); ``` del boton 
 
-* No recomendado
-* Nuestro arduino se volvera lento
-* No se pueden utilizar en interupciones 
+* **No recomendado** 
+* **Nuestro arduino se volvera lento**
+* **No se pueden utilizar en interupciones** 
+
+
+
