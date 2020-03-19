@@ -38,7 +38,7 @@ El arduino detectara que el boton es pulsado 10 veces seguidas se agrega un tiem
 
 * **Totalmente Recomendado**
 
-## Solucion utilizando resistencia interna que tiene incorporada el arduino (version solo boton) 
+## Solucion utilizando resistencia interna que tiene incorporada el arduino
 
 <img src="https://github.com/IDiegoUlises/Boton-Con-Resistencia-PULLUP-Interna/blob/master/images/Version-Solo-Boton-foto-real.jpg" width="900" height="600" />
 
