@@ -36,7 +36,8 @@ El arduino detectara que el boton es pulsado 10 veces seguidas se agrega un tiem
 
 <img src="https://github.com/IDiegoUlises/Boton-Con-Resistencia-PULLUP-Interna/blob/master/images/Boton-con-resistencia-externa.png" width="400" height="600" />
 
-* **Totalmente Recomendado**
+* **Recomendado**
+* Esta es el procedimiento correcto para incorporar una resistencia PullUP
 
 ## Solucion utilizando resistencia interna que tiene incorporada el arduino
 
