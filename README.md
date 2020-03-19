@@ -28,7 +28,7 @@ delay(150);
 
 * **No recomendado** 
 * **Nuestro arduino se volvera lento**
-* **No se pueden utilizar en interupciones** 
+* **No se puede utilizar para interupciones** 
 
 El arduino detectara que el boton fue pulsado 10 veces seguidas se agrega un tiempo de retardo al terminar una accion esto con la intenccion que la accion que se ejecuta 10 veces se ejecute solo 1 vez.
 
