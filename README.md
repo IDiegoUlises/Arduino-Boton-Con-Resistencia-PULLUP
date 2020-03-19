@@ -55,7 +55,7 @@ pinMode(boton, INPUT_PULLUP);
 
 **Advertencia 2:** Esta resistencia solo debe ser utilizarse para las comunicaciones como una comunicacion de serial o para un boton porque son especializadas para eso en el caso que se utilize para otra cosa puedes **quemar el arduino.**
 
-**Advertencia 3:** Nunca intentes utilizar esta resistencia para limitar la corriente de un motor o de un led no estan diseñadas para eso en el caso que se haga puedes **quemar el arduino.**
+**Advertencia 3:** Nunca intentes utilizar esta resistencia para limitar la corriente de un motor o de un led no estan diseñadas para eso en el caso que se haga **quemara el arduino** inmediatamente.
 
 ## Conexion
 
