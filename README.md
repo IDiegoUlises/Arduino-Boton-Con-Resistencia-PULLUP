@@ -43,7 +43,7 @@ El arduino detectara que el boton es pulsado 10 veces seguidas se agrega un tiem
 
 <img src="https://github.com/IDiegoUlises/Boton-Con-Resistencia-PULLUP-Interna/blob/master/images/Version-Solo-Boton-foto-real.jpg" width="900" height="600" />
 
-Lo que sucede es que se esta utilizando la resistencia interna que tiene incorporada adentro del arduino con esto no necesitaras agregar una resistencia y es genial para hacer pruebas rapidas.
+Lo que sucede es que se esta utilizando la resistencia interna que tiene incorporada adentro del arduino con esto no necesitaras agregar una resistencia y esta resistencia es para hacer pruebas rapidas.
 
 
 * **Para utilizar la resistencia interna agrega esta linea de codigo**
