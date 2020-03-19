@@ -51,11 +51,11 @@ pinMode(boton, INPUT_PULLUP);
 * **En caso que se queme no podras remplazarla**
 * **Evitas utilizar una resistencia externa** 
 
-**Advertencia:** La resistencia que tiene incorporada el arduino es una resistencia **smd** es decir que tiene dificultades en disipar el calor y es mas propensa a quemarse en el caso que se utilize en largos periodos de tiempo.
+**Advertencia:** La resistencia que tiene incorporada el arduino es una resistencia **SMD** es decir que tiene dificultades en disipar el calor y es mas propensa a quemarse en el caso que se utilize en largos periodos de tiempo.
 
-**Advertencia 2:** Esta resistencia solo debe ser utilizarse en las comunicaciones por ejemplo una comunicacion serial o para un boton porque son especializadas para eso en el caso que se utilize para otra cosa **es muy posible quemar todo el arduino**
+**Advertencia 2:** Esta resistencia solo debe ser utilizarse en las comunicaciones en una comunicacion serial o para un boton porque son especializadas para eso en el caso que se utilize para otra cosa puedes **quemar todo el arduino.**
 
-**Advertencia 3:** Nunca intentes utilizar esta resistencia para limitar la corriente de un motor o de un led no estan diseñadas para eso en el caso que se haga **puedes quemar todo el arduino**
+**Advertencia 3:** Nunca intentes utilizar esta resistencia para limitar la corriente de un motor o de un led no estan diseñadas para eso en el caso que se haga puedes **quemar el arduino.**
 
 ## Conexion
 
