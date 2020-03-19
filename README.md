@@ -19,17 +19,18 @@ Imagina un condensador que lo que hace es retener una corriente esta resistencia
 
 ## Solucion Con un tiempo de retardo
 
+
+Agregando un tiempo de retardo
+
 ```C++
 delay(150); 
 ```
-
-Agregando un tiempo de retardo
 
 * **No recomendado** 
 * **Nuestro arduino se volvera lento**
 * **No se pueden utilizar en interupciones** 
 
-Como el arduino detectara que el boton fue pulsado 10 veces se agrega un tiempo de retardo al final de un accion esto con la intenccion que la accion no ejecute 10 veces sino 1 sola vez. 
+El arduino detectara que el boton fue pulsado 10 veces seguidas se agrega un tiempo de retardo al terminar una accion esto con la intenccion que la accion que se ejecuta 10 veces se ejecute solo 1 vez.
 
 ## Solucion Utilizando una resistencia externa
 
