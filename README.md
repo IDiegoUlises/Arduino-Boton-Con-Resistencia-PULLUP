@@ -30,7 +30,7 @@ delay(150);
 * **Nuestro arduino se volvera lento**
 * **No se puede utilizar para interupciones** 
 
-El arduino detectara que el boton fue pulsado 10 veces seguidas se agrega un tiempo de retardo al terminar una accion esto con la intenccion que la accion que se ejecuta 10 veces se ejecute solo 1 vez.
+El arduino detectara que el boton es pulsado 10 veces seguidas se agrega un tiempo de retardo al terminar la accion dependiente del boton con la intenccion que la accion que se ejecuta 10 veces se ejecute 1 vez.
 
 ## Solucion Utilizando una resistencia externa
 
