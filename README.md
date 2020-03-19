@@ -23,11 +23,13 @@ Imagina un condensador que lo que hace es retener una corriente esta resistencia
 delay(150); 
 ```
 
-Agregando un tiempo de retarto despues de realizar la lectura ``` read(); ``` del boton 
+Agregando un tiempo de retardo
 
 * **No recomendado** 
 * **Nuestro arduino se volvera lento**
 * **No se pueden utilizar en interupciones** 
+
+Como el arduino detectara que el boton fue pulsado 10 veces se agrega un tiempo de retardo al final de un accion esto con la intenccion que la accion no ejecute 10 veces sino 1 sola vez. 
 
 ## Solucion Utilizando una resistencia externa
 
