@@ -39,21 +39,21 @@ El arduino detectara que el boton es pulsado 10 veces seguidas se agrega un tiem
 * **Recomendado**
 * Este es el procedimiento correcto para incorporar una resistencia PullUP
 
-## Solucion utilizando resistencia interna que tiene incorporada el arduino
+## Solucion utilizando la resistencia interna incorporada en el arduino
 
 <img src="https://github.com/IDiegoUlises/Boton-Con-Resistencia-PULLUP-Interna/blob/master/images/Version-Solo-Boton-foto-real.jpg" width="900" height="600" />
 
 Lo que sucede es que se esta utilizando la resistencia interna que tiene incorporada adentro del arduino con esto no necesitaras agregar una resistencia y es genial para hacer pruebas rapidas.
 
 
-* **Para utilizarlo la resistencia interna solo necesitaras utilizar una linea de codigo**
+* **Para utilizar la resistencia interna agrega esta linea de codigo**
 
 ```C++
 pinMode(boton, INPUT_PULLUP);
 ```
 * **Recomendado solo para pruebas**
-* **En caso que se queme no podras remplazarla**
-* **Evitas utilizar una resistencia externa** 
+* **En caso que se queme no puedes remplazarla**
+* **Evitas agregar una resistencia** 
 
 **Advertencia:** La resistencia que tiene incorporada el arduino es una resistencia **SMD** es decir que tiene dificultades en disipar el calor y es mas propensa a quemarse en el caso que se utilize en largos periodos de tiempo.
 
