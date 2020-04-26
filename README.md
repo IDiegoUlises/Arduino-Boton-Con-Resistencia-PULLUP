@@ -65,5 +65,5 @@ pinMode(boton, INPUT_PULLUP);
 
 <img src="https://github.com/IDiegoUlises/Boton-Con-Resistencia-PULLUP/blob/master/images/version-solo-boton-final.png" width="400" height="600" />
 
-* Cada pin del arduino incopora una resistencia ```INPUT_PULLUP``` separada es decir podemos conectar todos los pins con este resistencia 
+* Cada pin del arduino incopora una resistencia ```INPUT_PULLUP``` separada podemos conectar todos los pins con este resistencia 
 
