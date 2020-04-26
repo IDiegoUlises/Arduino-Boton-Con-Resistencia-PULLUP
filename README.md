@@ -9,12 +9,12 @@
 
 Es decir tu presionas el boton solo 1 vez pero el arduino como es muy rapido detectara que tu pulsaste el boton mas de 10 veces es decir que la intruccion que hayas programado se ejecutara 10 veces seguidas.
 
-**Como evitar esto:** Con una resistencia **PullUP** y simplemente es una resistencia comun y corriente con la diferencia que se utilizara con el proposito de evitar este problema.
+**Como evitar esto:** Con una resistencia **PullUP** es una resistencia comun y corriente con la diferencia que se utilizara con el proposito de evitar este problema.
 
 **¿Porque lo soluciona una resistencia?**
 Imagina un condensador que lo que hace es retener una corriente esta resistencia hace lo contrario elimina la corriente inecesaria.
 
-**¿Porque existe este problema?** Porque tenemos que presionar el boton con nuestra mano y al hacerlo nos demoramos **microsegundos** es como si presionaramos el boton mas de 10 veces seguidas.
+**¿Porque existe este problema?** Porque tenemos que presionar el boton con nuestra mano y al hacerlo nos demoramos microsegundos es como si presionaramos el boton mas de 10 veces seguidas.
 
 
 ## Solucion Con un tiempo de retardo
@@ -65,5 +65,5 @@ pinMode(boton, INPUT_PULLUP);
 
 <img src="https://github.com/IDiegoUlises/Boton-Con-Resistencia-PULLUP/blob/master/images/version-solo-boton-final.png" width="400" height="600" />
 
-* Cada entrada del arduino incopora una resistencia INPUT_PULLUP separada es decir puedes utilizar cada pins 
+* Cada pin del arduino incopora una resistencia ```INPUT_PULLUP``` separada es decir podemos conectar todos los pins con este resistencia 
 
