@@ -65,5 +65,5 @@ pinMode(boton, INPUT_PULLUP);
 
 <img src="https://github.com/IDiegoUlises/Boton-Con-Resistencia-PULLUP/blob/master/images/version-solo-boton-final.png" width="400" height="600" />
 
-* Cada puerto I/O digital y analogico incorpora una resistencia **PULLUP** separada
+* Cada puerto digital y analogico incorpora una resistencia **PULLUP** separada podemos conectar todos los botones con esta resistencia al mismo tiempo
 
