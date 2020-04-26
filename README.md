@@ -51,7 +51,7 @@ Lo que sucede es que se esta utilizando la resistencia interna que tiene incorpo
 ```C++
 pinMode(boton, INPUT_PULLUP);
 ```
-* **Recomendado solo para pruebas**
+* **Recomendado para pruebas**
 * **En caso que se queme no puedes remplazarla**
 * **Evitas agregar una resistencia** 
 
