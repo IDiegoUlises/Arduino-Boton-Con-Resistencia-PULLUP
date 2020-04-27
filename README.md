@@ -65,4 +65,4 @@ pinMode(boton, INPUT_PULLUP);
 
 <img src="https://github.com/IDiegoUlises/Boton-Con-Resistencia-PULLUP/blob/master/images/version-solo-boton-final.png" width="400" height="600" />
 
-* Todos los pines del Arduino incorpora una resistencia **INPUT_PULLUP** para cada pin digital y analogico
+* Todos los pins del Arduino incorpora una resistencia **INPUT_PULLUP** para cada pin digital y analogico
